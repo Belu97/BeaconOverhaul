@@ -1,0 +1,3 @@
+/effect give Player592 minecraft:speed 20 255
+/execute in minecraft:overworld run tp @s 79.69 72.00 -30.66 0.00 18.90
+/effect clear

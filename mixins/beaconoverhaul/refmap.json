@@ -1,0 +1,112 @@
+{
+  "mappings": {
+    "dev/sapphic/beacons/client/mixin/FogRendererMixin": {
+      "Lnet/minecraft/client/renderer/GameRenderer;getNightVisionScale(Lnet/minecraft/world/entity/LivingEntity;F)F": "Lnet/minecraft/class_757;method_3174(Lnet/minecraft/class_1309;F)F",
+      "computeFogColor(Lnet/minecraft/client/Camera;FLnet/minecraft/client/multiplayer/ClientLevel;IFZ)Lorg/joml/Vector4f;": "Lnet/minecraft/class_758;method_62185(Lnet/minecraft/class_4184;FLnet/minecraft/class_638;IFZ)Lorg/joml/Vector4f;"
+    },
+    "dev/sapphic/beacons/client/mixin/GameRendererMixin": {
+      "getNightVisionScale(Lnet/minecraft/world/entity/LivingEntity;F)F": "Lnet/minecraft/class_757;method_3174(Lnet/minecraft/class_1309;F)F"
+    },
+    "dev/sapphic/beacons/client/mixin/GuiMixin": {
+      "renderFood(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/world/entity/player/Player;II)V": "Lnet/minecraft/class_329;method_58477(Lnet/minecraft/class_332;Lnet/minecraft/class_1657;II)V"
+    },
+    "dev/sapphic/beacons/client/mixin/LightTextureMixin": {
+      "updateLightTexture(F)V": "Lnet/minecraft/class_765;method_3313(F)V"
+    },
+    "dev/sapphic/beacons/client/mixin/PowerButtonMixin": {
+      "<init>(Lnet/minecraft/client/gui/screens/inventory/BeaconScreen;IILnet/minecraft/core/Holder;ZI)V": "Lnet/minecraft/class_466$class_469;<init>(Lnet/minecraft/class_466;IILnet/minecraft/class_6880;ZI)V",
+      "setEffect(Lnet/minecraft/core/Holder;)V": "Lnet/minecraft/class_466$class_469;method_37081(Lnet/minecraft/class_6880;)V",
+      "updateStatus(I)V": "Lnet/minecraft/class_466$class_469;method_37080(I)V"
+    },
+    "dev/sapphic/beacons/client/mixin/ScreenEffectRendererMixin": {
+      "renderFire(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;)V": "Lnet/minecraft/class_4603;method_23070(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;Lnet/minecraft/class_1058;)V"
+    },
+    "dev/sapphic/beacons/mixin/BeaconBlockEntityAccessor": {
+      "BEACON_EFFECTS": "field_11801:Ljava/util/List;",
+      "VALID_EFFECTS": "field_11798:Ljava/util/Set;"
+    },
+    "dev/sapphic/beacons/mixin/BeaconBlockEntityMixin": {
+      "Lnet/minecraft/world/inventory/BeaconMenu;<init>(ILnet/minecraft/world/Container;Lnet/minecraft/world/inventory/ContainerData;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V": "Lnet/minecraft/class_1704;<init>(ILnet/minecraft/class_1263;Lnet/minecraft/class_3913;Lnet/minecraft/class_3914;)V",
+      "Lnet/minecraft/world/level/block/entity/BeaconBlockEntity;updateBase(Lnet/minecraft/world/level/Level;III)I": "Lnet/minecraft/class_2580;method_20293(Lnet/minecraft/class_1937;III)I",
+      "applyEffects(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;ILnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)V": "Lnet/minecraft/class_2580;method_10940(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;ILnet/minecraft/class_6880;Lnet/minecraft/class_6880;)V",
+      "createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;": "Lnet/minecraft/class_2580;createMenu(ILnet/minecraft/class_1661;Lnet/minecraft/class_1657;)Lnet/minecraft/class_1703;",
+      "tick(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BeaconBlockEntity;)V": "Lnet/minecraft/class_2580;method_16896(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2580;)V"
+    },
+    "dev/sapphic/beacons/mixin/BeaconMenuMixin": {
+      "<init>(ILnet/minecraft/world/Container;)V": "Lnet/minecraft/class_1704;<init>(ILnet/minecraft/class_1263;)V",
+      "<init>(ILnet/minecraft/world/Container;Lnet/minecraft/world/inventory/ContainerData;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V": "Lnet/minecraft/class_1704;<init>(ILnet/minecraft/class_1263;Lnet/minecraft/class_3913;Lnet/minecraft/class_3914;)V"
+    },
+    "dev/sapphic/beacons/mixin/GameRulesAccessor": {
+      "register": "method_8359(Ljava/lang/String;Lnet/minecraft/class_1928$class_5198;Lnet/minecraft/class_1928$class_4314;)Lnet/minecraft/class_1928$class_4313;"
+    },
+    "dev/sapphic/beacons/mixin/IntegerValueAccessor": {
+      "create": "method_20768(I)Lnet/minecraft/class_1928$class_4314;"
+    },
+    "dev/sapphic/beacons/mixin/LivingEntityMixin": {
+      "Lnet/minecraft/world/entity/LivingEntity;travelInAir(Lnet/minecraft/world/phys/Vec3;)V": "Lnet/minecraft/class_1309;method_61428(Lnet/minecraft/class_243;)V",
+      "baseTick()V": "Lnet/minecraft/class_1309;method_5670()V",
+      "getEffectiveGravity()D": "Lnet/minecraft/class_1309;method_61426()D",
+      "tickEffects()V": "Lnet/minecraft/class_1309;method_6050()V",
+      "travel(Lnet/minecraft/world/phys/Vec3;)V": "Lnet/minecraft/class_1309;method_6091(Lnet/minecraft/class_243;)V"
+    },
+    "dev/sapphic/beacons/mixin/PlayerMixin": {
+      "canEat(Z)Z": "Lnet/minecraft/class_1657;method_7332(Z)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/sapphic/beacons/client/mixin/FogRendererMixin": {
+        "Lnet/minecraft/client/renderer/GameRenderer;getNightVisionScale(Lnet/minecraft/world/entity/LivingEntity;F)F": "Lnet/minecraft/class_757;method_3174(Lnet/minecraft/class_1309;F)F",
+        "computeFogColor(Lnet/minecraft/client/Camera;FLnet/minecraft/client/multiplayer/ClientLevel;IFZ)Lorg/joml/Vector4f;": "Lnet/minecraft/class_758;method_62185(Lnet/minecraft/class_4184;FLnet/minecraft/class_638;IFZ)Lorg/joml/Vector4f;"
+      },
+      "dev/sapphic/beacons/client/mixin/GameRendererMixin": {
+        "getNightVisionScale(Lnet/minecraft/world/entity/LivingEntity;F)F": "Lnet/minecraft/class_757;method_3174(Lnet/minecraft/class_1309;F)F"
+      },
+      "dev/sapphic/beacons/client/mixin/GuiMixin": {
+        "renderFood(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/world/entity/player/Player;II)V": "Lnet/minecraft/class_329;method_58477(Lnet/minecraft/class_332;Lnet/minecraft/class_1657;II)V"
+      },
+      "dev/sapphic/beacons/client/mixin/LightTextureMixin": {
+        "updateLightTexture(F)V": "Lnet/minecraft/class_765;method_3313(F)V"
+      },
+      "dev/sapphic/beacons/client/mixin/PowerButtonMixin": {
+        "<init>(Lnet/minecraft/client/gui/screens/inventory/BeaconScreen;IILnet/minecraft/core/Holder;ZI)V": "Lnet/minecraft/class_466$class_469;<init>(Lnet/minecraft/class_466;IILnet/minecraft/class_6880;ZI)V",
+        "setEffect(Lnet/minecraft/core/Holder;)V": "Lnet/minecraft/class_466$class_469;method_37081(Lnet/minecraft/class_6880;)V",
+        "updateStatus(I)V": "Lnet/minecraft/class_466$class_469;method_37080(I)V"
+      },
+      "dev/sapphic/beacons/client/mixin/ScreenEffectRendererMixin": {
+        "renderFire(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;)V": "Lnet/minecraft/class_4603;method_23070(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;Lnet/minecraft/class_1058;)V"
+      },
+      "dev/sapphic/beacons/mixin/BeaconBlockEntityAccessor": {
+        "BEACON_EFFECTS": "field_11801:Ljava/util/List;",
+        "VALID_EFFECTS": "field_11798:Ljava/util/Set;"
+      },
+      "dev/sapphic/beacons/mixin/BeaconBlockEntityMixin": {
+        "Lnet/minecraft/world/inventory/BeaconMenu;<init>(ILnet/minecraft/world/Container;Lnet/minecraft/world/inventory/ContainerData;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V": "Lnet/minecraft/class_1704;<init>(ILnet/minecraft/class_1263;Lnet/minecraft/class_3913;Lnet/minecraft/class_3914;)V",
+        "Lnet/minecraft/world/level/block/entity/BeaconBlockEntity;updateBase(Lnet/minecraft/world/level/Level;III)I": "Lnet/minecraft/class_2580;method_20293(Lnet/minecraft/class_1937;III)I",
+        "applyEffects(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;ILnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)V": "Lnet/minecraft/class_2580;method_10940(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;ILnet/minecraft/class_6880;Lnet/minecraft/class_6880;)V",
+        "createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;": "Lnet/minecraft/class_2580;createMenu(ILnet/minecraft/class_1661;Lnet/minecraft/class_1657;)Lnet/minecraft/class_1703;",
+        "tick(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BeaconBlockEntity;)V": "Lnet/minecraft/class_2580;method_16896(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2580;)V"
+      },
+      "dev/sapphic/beacons/mixin/BeaconMenuMixin": {
+        "<init>(ILnet/minecraft/world/Container;)V": "Lnet/minecraft/class_1704;<init>(ILnet/minecraft/class_1263;)V",
+        "<init>(ILnet/minecraft/world/Container;Lnet/minecraft/world/inventory/ContainerData;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V": "Lnet/minecraft/class_1704;<init>(ILnet/minecraft/class_1263;Lnet/minecraft/class_3913;Lnet/minecraft/class_3914;)V"
+      },
+      "dev/sapphic/beacons/mixin/GameRulesAccessor": {
+        "register": "method_8359(Ljava/lang/String;Lnet/minecraft/class_1928$class_5198;Lnet/minecraft/class_1928$class_4314;)Lnet/minecraft/class_1928$class_4313;"
+      },
+      "dev/sapphic/beacons/mixin/IntegerValueAccessor": {
+        "create": "method_20768(I)Lnet/minecraft/class_1928$class_4314;"
+      },
+      "dev/sapphic/beacons/mixin/LivingEntityMixin": {
+        "Lnet/minecraft/world/entity/LivingEntity;travelInAir(Lnet/minecraft/world/phys/Vec3;)V": "Lnet/minecraft/class_1309;method_61428(Lnet/minecraft/class_243;)V",
+        "baseTick()V": "Lnet/minecraft/class_1309;method_5670()V",
+        "getEffectiveGravity()D": "Lnet/minecraft/class_1309;method_61426()D",
+        "tickEffects()V": "Lnet/minecraft/class_1309;method_6050()V",
+        "travel(Lnet/minecraft/world/phys/Vec3;)V": "Lnet/minecraft/class_1309;method_6091(Lnet/minecraft/class_243;)V"
+      },
+      "dev/sapphic/beacons/mixin/PlayerMixin": {
+        "canEat(Z)Z": "Lnet/minecraft/class_1657;method_7332(Z)Z"
+      }
+    }
+  }
+}
