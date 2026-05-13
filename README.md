@@ -1,3 +1,5 @@
+This is a modified fork of BeaconOverhaul by ChloeDawn, originally licensed under the Apache License 2.0. Updates have been made to support newer Minecraft versions **(specifically 1.21.10)** and fix bugs.
+
 # Beacon Overhaul
 
 **A mod for Minecraft that introduces a tier system and better effect scaling for beacons**
