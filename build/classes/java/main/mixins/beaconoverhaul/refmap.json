@@ -19,7 +19,7 @@
       "updateStatus(I)V": "Lnet/minecraft/class_466$class_469;method_37080(I)V"
     },
     "dev/sapphic/beacons/client/mixin/ScreenEffectRendererMixin": {
-      "renderFire(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;)V": "Lnet/minecraft/class_4603;method_23070(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;Lnet/minecraft/class_1058;)V"
+      "renderFire(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;)V": "Lnet/minecraft/class_4603;renderFire(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;Lnet/minecraft/class_1058;)V"
     },
     "dev/sapphic/beacons/mixin/BeaconBlockEntityAccessor": {
       "BEACON_EFFECTS": "field_11801:Ljava/util/List;",
@@ -74,7 +74,7 @@
         "updateStatus(I)V": "Lnet/minecraft/class_466$class_469;method_37080(I)V"
       },
       "dev/sapphic/beacons/client/mixin/ScreenEffectRendererMixin": {
-        "renderFire(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;)V": "Lnet/minecraft/class_4603;method_23070(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;Lnet/minecraft/class_1058;)V"
+        "renderFire(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;)V": "Lnet/minecraft/class_4603;renderFire(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;Lnet/minecraft/class_1058;)V"
       },
       "dev/sapphic/beacons/mixin/BeaconBlockEntityAccessor": {
         "BEACON_EFFECTS": "field_11801:Ljava/util/List;",

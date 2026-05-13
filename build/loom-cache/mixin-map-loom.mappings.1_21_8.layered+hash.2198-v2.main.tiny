@@ -1,0 +1,9 @@
+v1	named	intermediary
+FIELD	dev/sapphic/beacons/client/mixin/GuiMixin	Lnet/minecraft/client/Minecraft;	minecraft	field_2035
+FIELD	dev/sapphic/beacons/client/mixin/LightTextureMixin	Lnet/minecraft/client/Minecraft;	minecraft	field_4137
+FIELD	dev/sapphic/beacons/client/mixin/PowerButtonMixin	Lnet/minecraft/core/Holder;	effect	field_2813
+FIELD	dev/sapphic/beacons/mixin/BeaconBlockEntityMixin	I	levels	field_11803
+FIELD	dev/sapphic/beacons/mixin/BeaconMenuMixin	Lnet/minecraft/world/inventory/ContainerData;	beaconData	field_17290
+METHOD	dev/sapphic/beacons/client/mixin/GuiMixin	()Lnet/minecraft/world/entity/player/Player;	getCameraPlayer	method_1737
+METHOD	dev/sapphic/beacons/mixin/LivingEntityMixin	(Lnet/minecraft/core/Holder;)Z	hasEffect	method_6059
+METHOD	dev/sapphic/beacons/mixin/LivingEntityMixin	(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/entity/ai/attributes/AttributeInstance;	getAttribute	method_5996
