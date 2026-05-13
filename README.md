@@ -15,7 +15,7 @@ This is a modified fork of BeaconOverhaul by ChloeDawn, originally licensed unde
 
 *In future releases higher potency night vision, long reach, and nutrition may be separated into other mods for modularity.*
 
-**The latest version of this mod requires Minecraft 1.17 Pre-Release 1 or newer**
+**The latest version of this mod requires Minecraft 1.21.10**
 
 ![In-game screenshot of additional effects in beacon menu](https://i.imgur.com/A8q0WBK.png)
 
