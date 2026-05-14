@@ -12,9 +12,6 @@ This is a modified fork of BeaconOverhaul by ChloeDawn, originally licensed unde
 - Adds an increased step height to jump boost, allowing the player to step up blocks instantaneously when the effect is applied
   - Note: Auto-jump takes precedence, and will need to be disabled for this to have any effect
 
-*In future releases higher potency night vision, long reach, and nutrition may be separated into other mods for modularity.*
-
-**The latest version of this mod requires Minecraft 1.17 Pre-Release 1 or newer**
 
 ![In-game screenshot of additional effects in beacon menu](https://i.imgur.com/A8q0WBK.png)
 
