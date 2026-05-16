@@ -1,0 +1,220 @@
+﻿Initialized native services in: C:\Users\Belu97\.gradle\native
+Initialized jansi services in: C:\Users\Belu97\.gradle\native
+The client will now receive all logging from the daemon (pid: 32208). The daemon log file: C:\Users\Belu97\.gradle\daemon\9.5.1\daemon-32208.out.log
+Starting 5th build in daemon [uptime: 5 mins 0.472 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 4 GiB]
+Using 16 worker leases.
+Operational build model parameters: {cachingModelBuilding=false, configurationCache=false, configurationCacheDisabledReason=null, configurationCacheParallelLoad=false, configurationCacheParallelStore=false, configureOnDemand=false, invalidateCoupledProjects=false, isolatedProjects=false, modelAsProjectDependency=false, modelBuilding=false, parallelModelBuilding=false, parallelProjectConfiguration=false, parallelProjectExecution=true, resilientModelBuilding=false}
+Now considering [G:\26 beaconov] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'G:\26 beaconov\settings.gradle.kts'.
+Projects loaded. Root project using build file 'G:\26 beaconov\build.gradle'.
+Included projects: [root project 'BeaconOverhaul']
+Found installer in mod fabricloader version 0.19.2
+
+> Configure project :
+Evaluating root project 'BeaconOverhaul' using build file 'G:\26 beaconov\build.gradle'.
+Resolved plugin [id: 'net.fabricmc.fabric-loom', version: '1.16.2']
+Resolved plugin [id: 'maven-publish']
+Fabric Loom: 1.16.2
+(kotlin.metadata.jvm.KotlinClassMetadata) with version (2.3.0-release-356) was loaded from (/C:/Users/Belu97/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-metadata-jvm/2.3.0/7758780509972cf8338f06649cc5e4b11acc14e/kotlin-metadata-jvm-2.3.0.jar)
+(org.objectweb.asm.ClassVisitor) with version (9.9) was loaded from (/C:/Users/Belu97/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.9/c29635c8a7afa03d74b33c1884df8abb2b3f3dcc/asm-9.9.jar)
+(org.objectweb.asm.tree.analysis.Analyzer) with version (9.9) was loaded from (/C:/Users/Belu97/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.9/bf4fa6e66638851c1cd22c2caea0c3ee5d5f437/asm-analysis-9.9.jar)
+(org.objectweb.asm.commons.ClassRemapper) with version (9.9) was loaded from (/C:/Users/Belu97/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.9/db9165a3bf908ded6b08612d583a15d1d0c7bda0/asm-commons-9.9.jar)
+(org.objectweb.asm.tree.ClassNode) with version (9.9) was loaded from (/C:/Users/Belu97/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.9/f8de6eead6d24dd0f45bd065bbe112b2cda6ea21/asm-tree-9.9.jar)
+(org.objectweb.asm.util.ASMifier) with version (9.9) was loaded from (/C:/Users/Belu97/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.9/42fdfc0508b43807c8078d6e82ecff2ce2112ae8/asm-util-9.9.jar)
+(com.google.gson.Gson) with version (null) was loaded from (/C:/Users/Belu97/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/b3add478d4382b78ea20b1671390a858002feb6c/gson-2.10.1.jar)
+Using cached Minecraft jars
+:Extracting server jar from bootstrap
+Applying installer data from configuration 'mainCompileDependencyResolve'
+All projects evaluated.
+Task name matched 'build'
+Selected primary task 'build' from project :
+Tasks to be executed: [task ':compileJava', task ':processResources', task ':classes', task ':processIncludeJars', task ':jar', task ':sourcesJar', task ':assemble', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':test', task ':validateAccessWidener', task ':check', task ':build']
+Tasks that were excluded: []
+Resolve mutations for :compileJava (Thread[#600,Execution worker,5,main]) started.
+:compileJava (Thread[#600,Execution worker,5,main]) started.
+
+> Task :compileJava FAILED
+Caching disabled for task ':compileJava' because:
+  Build cache is disabled
+Task ':compileJava' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':compileJava'.
+Compilation mode: in-process compilation
+Full recompilation is required because no incremental change information is available. This is usually caused by clean builds or changing compiler arguments.
+Compiling with toolchain 'C:\Program Files\Java\jdk-26.0.1'.
+Compiling with JDK Java compiler API.
+.\gradlew.bat : G:\26 beaconov\src\main\java\dev\sapphic\beacons\BeaconMobEffects.java:29: Fehler: Symbol nicht 
+gefunden
+In Zeile:1 Zeichen:1
++ .\gradlew.bat build > build_output.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (G:\26 beaconov\... nicht gefunden:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  public static final GameRules.Key<GameRules.IntegerValue> LONG_REACH_INCREMENT =
+                               ^
+  Symbol: Klasse Key
+  Ort: Klasse GameRules
+G:\26 beaconov\src\main\java\dev\sapphic\beacons\BeaconMobEffects.java:29: Fehler: Symbol nicht gefunden
+  public static final GameRules.Key<GameRules.IntegerValue> LONG_REACH_INCREMENT =
+                                             ^
+  Symbol: Klasse IntegerValue
+  Ort: Klasse GameRules
+G:\26 beaconov\src\main\java\dev\sapphic\beacons\client\mixin\GuiMixin.java:8: Fehler: Symbol nicht gefunden
+import net.minecraft.client.gui.GuiGraphics;
+                               ^
+  Symbol: Klasse GuiGraphics
+  Ort: Package net.minecraft.client.gui
+G:\26 beaconov\src\main\java\dev\sapphic\beacons\client\mixin\GuiMixin.java:32: Fehler: Symbol nicht gefunden
+  private int noNutritionHungerShake(final int shakenY, final GuiGraphics graphics, final Player player, final int x, 
+final int y) {
+                                                              ^
+  Symbol: Klasse GuiGraphics
+  Ort: Klasse GuiMixin
+G:\26 beaconov\src\main\java\dev\sapphic\beacons\client\mixin\LightTextureMixin.java:8: Fehler: Symbol nicht gefunden
+import net.minecraft.client.renderer.LightTexture;
+                                    ^
+  Symbol: Klasse LightTexture
+  Ort: Package net.minecraft.client.renderer
+G:\26 beaconov\src\main\java\dev\sapphic\beacons\mixin\GameRulesAccessor.java:10: Fehler: Symbol nicht gefunden
+  static <T extends GameRules.Value<T>> GameRules.Key<T> callRegister(
+                             ^
+  Symbol: Klasse Value
+  Ort: Klasse GameRules
+G:\26 beaconov\src\main\java\dev\sapphic\beacons\mixin\GameRulesAccessor.java:11: Fehler: Symbol nicht gefunden
+      final String name, final GameRules.Category category, final GameRules.Type<T> type) {
+                                        ^
+  Symbol: Klasse Category
+  Ort: Klasse GameRules
+G:\26 beaconov\src\main\java\dev\sapphic\beacons\mixin\GameRulesAccessor.java:11: Fehler: Symbol nicht gefunden
+      final String name, final GameRules.Category category, final GameRules.Type<T> type) {
+                                                                           ^
+  Symbol: Klasse Type
+  Ort: Klasse GameRules
+G:\26 beaconov\src\main\java\dev\sapphic\beacons\mixin\GameRulesAccessor.java:10: Fehler: Symbol nicht gefunden
+  static <T extends GameRules.Value<T>> GameRules.Key<T> callRegister(
+                                                 ^
+  Symbol: Klasse Key
+  Ort: Klasse GameRules
+G:\26 beaconov\src\main\java\dev\sapphic\beacons\mixin\IntegerValueAccessor.java:10: Fehler: Symbol nicht gefunden
+  static GameRules.Type<GameRules.IntegerValue> callCreate(final int defaultValue) {
+                  ^
+  Symbol: Klasse Type
+  Ort: Klasse GameRules
+G:\26 beaconov\src\main\java\dev\sapphic\beacons\mixin\IntegerValueAccessor.java:10: Fehler: Symbol nicht gefunden
+  static GameRules.Type<GameRules.IntegerValue> callCreate(final int defaultValue) {
+                                 ^
+  Symbol: Klasse IntegerValue
+  Ort: Klasse GameRules
+G:\26 beaconov\src\main\java\dev\sapphic\beacons\client\mixin\LightTextureMixin.java:18: Fehler: Symbol nicht gefunden
+@Mixin(LightTexture.class)
+       ^
+  Symbol: Klasse LightTexture
+G:\26 beaconov\src\main\java\dev\sapphic\beacons\mixin\IntegerValueAccessor.java:7: Fehler: Symbol nicht gefunden
+@Mixin(GameRules.IntegerValue.class)
+                ^
+  Symbol: Klasse IntegerValue
+  Ort: Klasse GameRules
+G:\26 beaconov\src\main\java\dev\sapphic\beacons\BeaconMobEffects.java:31: Fehler: Symbol nicht gefunden
+          "longReachIncrement", GameRules.Category.PLAYER, IntegerValueAccessor.callCreate(2));
+                                         ^
+  Symbol: Variable Category
+  Ort: Klasse GameRules
+Hinweis: G:\26 beaconov\src\main\java\dev\sapphic\beacons\client\BeaconPowerTooltips.java verwendet oder ⁿberschreibt 
+eine veraltete API.
+Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+14 Fehler
+
+[Incubating] Problems report is available at: file:///G:/26%20beaconov/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava' (registered by plugin class 'org.gradle.api.plugins.JavaBasePlugin').
+> Compilation failed; see the compiler output below.
+  Hinweis: G:\26 beaconov\src\main\java\dev\sapphic\beacons\client\BeaconPowerTooltips.java verwendet oder 
+ⁿberschreibt eine veraltete API.
+  Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+  G:\26 beaconov\src\main\java\dev\sapphic\beacons\BeaconMobEffects.java:29: Fehler: Symbol nicht gefunden
+    public static final GameRules.Key<GameRules.IntegerValue> LONG_REACH_INCREMENT =
+                                 ^
+    Symbol: Klasse Key
+    Ort: Klasse GameRules
+  G:\26 beaconov\src\main\java\dev\sapphic\beacons\BeaconMobEffects.java:29: Fehler: Symbol nicht gefunden
+    public static final GameRules.Key<GameRules.IntegerValue> LONG_REACH_INCREMENT =
+                                               ^
+    Symbol: Klasse IntegerValue
+    Ort: Klasse GameRules
+  G:\26 beaconov\src\main\java\dev\sapphic\beacons\client\mixin\GuiMixin.java:8: Fehler: Symbol nicht gefunden
+  import net.minecraft.client.gui.GuiGraphics;
+                                 ^
+    Symbol: Klasse GuiGraphics
+    Ort: Package net.minecraft.client.gui
+  G:\26 beaconov\src\main\java\dev\sapphic\beacons\client\mixin\GuiMixin.java:32: Fehler: Symbol nicht gefunden
+    private int noNutritionHungerShake(final int shakenY, final GuiGraphics graphics, final Player player, final int 
+x, final int y) {
+                                                                ^
+    Symbol: Klasse GuiGraphics
+    Ort: Klasse GuiMixin
+  G:\26 beaconov\src\main\java\dev\sapphic\beacons\client\mixin\LightTextureMixin.java:8: Fehler: Symbol nicht gefunden
+  import net.minecraft.client.renderer.LightTexture;
+                                      ^
+    Symbol: Klasse LightTexture
+    Ort: Package net.minecraft.client.renderer
+  G:\26 beaconov\src\main\java\dev\sapphic\beacons\mixin\GameRulesAccessor.java:10: Fehler: Symbol nicht gefunden
+    static <T extends GameRules.Value<T>> GameRules.Key<T> callRegister(
+                               ^
+    Symbol: Klasse Value
+    Ort: Klasse GameRules
+  G:\26 beaconov\src\main\java\dev\sapphic\beacons\mixin\GameRulesAccessor.java:11: Fehler: Symbol nicht gefunden
+        final String name, final GameRules.Category category, final GameRules.Type<T> type) {
+                                          ^
+    Symbol: Klasse Category
+    Ort: Klasse GameRules
+  G:\26 beaconov\src\main\java\dev\sapphic\beacons\mixin\GameRulesAccessor.java:11: Fehler: Symbol nicht gefunden
+        final String name, final GameRules.Category category, final GameRules.Type<T> type) {
+                                                                             ^
+    Symbol: Klasse Type
+    Ort: Klasse GameRules
+  G:\26 beaconov\src\main\java\dev\sapphic\beacons\mixin\GameRulesAccessor.java:10: Fehler: Symbol nicht gefunden
+    static <T extends GameRules.Value<T>> GameRules.Key<T> callRegister(
+                                                   ^
+    Symbol: Klasse Key
+    Ort: Klasse GameRules
+  G:\26 beaconov\src\main\java\dev\sapphic\beacons\mixin\IntegerValueAccessor.java:10: Fehler: Symbol nicht gefunden
+    static GameRules.Type<GameRules.IntegerValue> callCreate(final int defaultValue) {
+                    ^
+1 actionable task: 1 executed
+Watched directory hierarchies: [G:\26 beaconov]
+    Symbol: Klasse Type
+    Ort: Klasse GameRules
+  G:\26 beaconov\src\main\java\dev\sapphic\beacons\mixin\IntegerValueAccessor.java:10: Fehler: Symbol nicht gefunden
+    static GameRules.Type<GameRules.IntegerValue> callCreate(final int defaultValue) {
+                                   ^
+    Symbol: Klasse IntegerValue
+    Ort: Klasse GameRules
+  G:\26 beaconov\src\main\java\dev\sapphic\beacons\mixin\IntegerValueAccessor.java:7: Fehler: Symbol nicht gefunden
+  @Mixin(GameRules.IntegerValue.class)
+                  ^
+    Symbol: Klasse IntegerValue
+    Ort: Klasse GameRules
+  G:\26 beaconov\src\main\java\dev\sapphic\beacons\BeaconMobEffects.java:31: Fehler: Symbol nicht gefunden
+            "longReachIncrement", GameRules.Category.PLAYER, IntegerValueAccessor.callCreate(2));
+                                           ^
+    Symbol: Variable Category
+    Ort: Klasse GameRules
+  G:\26 beaconov\src\main\java\dev\sapphic\beacons\client\mixin\LightTextureMixin.java:18: Fehler: Symbol nicht 
+gefunden
+  @Mixin(LightTexture.class)
+         ^
+    Symbol: Klasse LightTexture
+  14 Fehler
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 1s

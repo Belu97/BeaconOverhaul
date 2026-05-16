@@ -1,0 +1,18 @@
+{
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "required": true,
+  "package": "dev.sapphic.beacons.mixin",
+  "mixins": [
+    "BeaconBlockEntityAccessor",
+    "BeaconBlockEntityMixin",
+    "BeaconMenuMixin",
+    "GameRulesAccessor",
+    "LivingEntityMixin",
+    "PlayerMixin"
+  ],
+  "refmap": "mixins/beaconoverhaul/refmap.json",
+  "injectors": {
+    "maxShiftBy": 2
+  }
+}

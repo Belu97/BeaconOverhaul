@@ -1,0 +1,18 @@
+{
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "required": true,
+  "package": "dev.sapphic.beacons.client.mixin",
+  "client": [
+    "FogRendererMixin",
+    "GameRendererMixin",
+    "GuiMixin",
+    "LightmapRenderStateExtractorMixin",
+    "PowerButtonMixin",
+    "ScreenEffectRendererMixin"
+  ],
+  "refmap": "mixins/beaconoverhaul/refmap.json",
+  "injectors": {
+    "maxShiftBy": 5
+  }
+}
