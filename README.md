@@ -1,5 +1,4 @@
-This is a modified fork of BeaconOverhaul by ChloeDawn, originally licensed under the Apache License 2.0. Updates have been made to support newer Minecraft versions **(specifically 1.21.10)** and fix bugs.
-
+This is a modified fork of BeaconOverhaul by ChloeDawn, originally licensed under the Apache License 2.0. Updates have been made to support newer Minecraft versions and fix bugs.
 
 # Beacon Overhaul
 
@@ -15,7 +14,10 @@ This is a modified fork of BeaconOverhaul by ChloeDawn, originally licensed unde
 
 *In future releases higher potency night vision, long reach, and nutrition may be separated into other mods for modularity.*
 
-**The latest version of this mod requires Minecraft 1.21.10**
+### Requirements
+- **Minecraft:** 26.1.2
+- **Java:** 26 (Required by Minecraft 26.1.2)
+- **Fabric Loader:** 0.19.2 or newer
 
 ![In-game screenshot of additional effects in beacon menu](https://i.imgur.com/A8q0WBK.png)
 
